@@ -1,0 +1,59 @@
+GIT Commands 
+
+1 (git status) = to check the status. if there is no repository then it will show mesg ==
+
+[   $ git status
+fatal: not a git repository (or any of the parent directories): .git ]
+
+
+2 (git init)=to initialize your git repository.
+
+after intializing the repository then again check git status 
+ for first time there will be no tracked files so it will show you there are untracked files
+
+  mesg after running git status command ==
+
+ [ $ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        a.docx
+        abc.txt
+        myexcel.xlsx
+
+nothing added to commit but untracked files present (use "git add" to track) ]
+
+3 (git add --a )= to add all files in your folder to staging area ==
+ 
+ after that the files get added and it is ready to commmit.
+
+    --a  means == all files.
+    add== to add the files.
+
+4 ( git coomit -m ) = to commit a mesg.
+   
+  // if you give command (git commit) only it will open new ediotr.
+  
+5 ( git log )= if you want to know what comment you have written previously.
+
+6 if you made any changes to your files then after you check the status by using first command then 
+   it will show that you have modfied that fil.
+   it will show following mesg 
+  
+  [  $ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   abc.txt
+].
+
+
+
+
+
+    
+   
